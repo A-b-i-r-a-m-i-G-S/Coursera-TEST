@@ -149,3 +149,9 @@ a#s3:link, a#s3:hover,a#s3:visited{
         width:100%;
     }
 }
+
+@media (max-width:767px){
+    section{
+        width:100%;
+    }
+}
