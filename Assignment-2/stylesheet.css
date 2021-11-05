@@ -9,35 +9,30 @@ div#container{
     position: relative;
 }
 section{
-    margin-top: 10px;
-    margin-bottom:10px;
-    margin-right:20px;
+    height: 900px;
     border-width: 10px;
     border-style: solid;
-    padding: 70px 10px 10px 10px;
+    padding: 100px 10px 10px 10px;
     float:left;
-    
 }
 #section1{
     background-color: #d9c78f;
     position:relative;
-    margin-left: 20px;
     border-color: #694d30;
     color:#462f1b;
 }
 #section2{
     background-color: rgb(24, 42, 53);
     position:relative;
-    margin-left: 20px;
     border-color: #b6d6bd;
     color: rgb(212, 211, 211);
 }
 #section3{
     background-color: rgb(163, 51, 16);
     position:relative;
-    margin-left: 20px;
     border-color: #544b3f;
     color:rgb(245, 192, 179);
+    margin-right: 0px;
 }
 /* Headers */
 h1{ 
@@ -137,19 +132,38 @@ a#s3:link, a#s3:hover,a#s3:visited{
 
 @media (min-width:992px){
     section{
-        width:29%;
+        width:31.5%;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom:10px;
     }
     #section3{
         margin-right: 10px;
+        margin-left: 20px;
     }
 }
 
 @media (min-width:768px) and (max-width:991px){
     #section1, #section2{
-        width:45%;
+        width:46%;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom:10px;
     }
     #section3{
-        margin-left: 0px;
-        width:100%;
+        width:94%;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+}
+
+@media (max-width:767px){
+    section{
+        width:95%;
+        margin-top: 10px;
+        margin-bottom:10px;
+        margin-right:20px;
+        margin-left: 20px;
     }
 }
