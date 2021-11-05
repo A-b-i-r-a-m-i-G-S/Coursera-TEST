@@ -11,7 +11,7 @@ div#container{
 section{
     margin-top: 10px;
     margin-bottom:10px;
-    margin-right:20px;
+    margin-right:10px;
     border-width: 10px;
     border-style: solid;
     padding: 70px 10px 10px 10px;
@@ -21,21 +21,19 @@ section{
 #section1{
     background-color: #d9c78f;
     position:relative;
-    margin-left: 20px;
+    margin-left: 10px;
     border-color: #694d30;
     color:#462f1b;
 }
 #section2{
     background-color: rgb(24, 42, 53);
     position:relative;
-    margin-left: 20px;
     border-color: #b6d6bd;
     color: rgb(212, 211, 211);
 }
 #section3{
     background-color: rgb(163, 51, 16);
     position:relative;
-    margin-left: 20px;
     border-color: #544b3f;
     color:rgb(245, 192, 179);
 }
