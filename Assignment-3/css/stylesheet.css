@@ -1,0 +1,66 @@
+*{box-sizing: border-box;}
+body{
+    font-family: 'Pangolin', cursive;
+    font-size: 16px;
+    color: white;
+    background-color: #2F2F2F;
+}
+#header-nav{
+    background-color: #B47AEA;
+    border-radius:0;
+    border:0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list a{
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+#nav-list a:hover{
+    background-color: rgb(182, 182, 182);
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    color: #2F2F2F;
+    border:2px solid white;
+}
+h1{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-bottom:0px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#section1{
+    background-color: #6CD4FF;
+    border:8px solid #2F2F2F ;
+    height:1000px;
+}
+#section2{
+    background-color: #B47AEA;
+    border:8px solid #2F2F2F;
+    height:1000px;
+}
+#section3{
+    background-color: #86CB92;
+    border:8px solid #2F2F2F ;
+    height:1000px;
+}
+
+a.link{
+    color:white;
+    font-size: 20px;
+    font-family:'Dancing Script', cursive ;
+    text-align: center;
+    font-weight: bold;
+}
