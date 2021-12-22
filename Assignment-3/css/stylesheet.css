@@ -44,23 +44,26 @@ h2{
 #section1{
     background-color: #6CD4FF;
     border:8px solid #2F2F2F ;
-    height:1000px;
+    padding:5px;
+    /* height:1000px; */
 }
 #section2{
     background-color: #B47AEA;
     border:8px solid #2F2F2F;
-    height:1000px;
+    padding:5px;
+    /* height:1000px; */
 }
 #section3{
     background-color: #86CB92;
     border:8px solid #2F2F2F ;
-    height:1000px;
+    padding:5px;
+    /* height:1000px; */
 }
 
 a.link{
     color:white;
     font-size: 20px;
     font-family:'Dancing Script', cursive ;
-    text-align: center;
+    /* text-align: center; */
     font-weight: bold;
 }
